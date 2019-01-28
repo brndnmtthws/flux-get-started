@@ -1,0 +1,1 @@
+{"jobID":"fefca518-ac7a-a6ad-345a-2afb5c723bc1","spec":{"type":"policy","cause":{"Message":"","User":"Brenden Matthews \u003cbrenden.matthews@braze.com\u003e"},"spec":{"demo:helmrelease/redis":{"add":{},"remove":{"locked":"true","locked_msg":"true","locked_user":"true"}}}},"result":null}
