@@ -13,6 +13,4 @@ spec:
     name: memcached
     version: 2.5.0
   values:
-    image:
-      repository: memcached
-      tag: 1.5.6-alpine
+    image: memcached:1.5.6-alpine
