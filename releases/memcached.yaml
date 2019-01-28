@@ -1,0 +1,18 @@
+---
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: memcached
+  namespace: demo
+  annotations:
+    flux.weave.works/tag.chart-image: semver:~1.5
+spec:
+  releaseName: memcached
+  chart:
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    name: memcached
+    version: 2.5.0
+  values:
+	image:
+      repository: memcached
+      tag: 1.5.6-alpine
